@@ -1,0 +1,706 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    width: 100%;
+}
+h1{
+    font-size: 3rem;
+    line-height: normal;
+    font-weight: 500;
+    color: #34C6DD;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: normal;
+    font-weight: 500;
+}
+h3{
+    font-size: 2rem;
+    line-height: normal;
+    font-weight: 500;
+}
+a{
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+    color: royalblue;
+}
+
+/*//////////////////////////////////////////////////////////////////PARTIE HEADER//////////////////////////////////////////////////////////////////*/
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.900);
+}
+nav a{
+    font-size: 1.5rem;
+    color: #34C6DD;
+}
+nav{
+    height: 80px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul li{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.burger{
+    display: none;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0;   
+}
+header img{
+    text-align: center;
+    max-width: 50%;
+    margin-bottom: 5px;
+}
+header p{
+    margin: 0;
+}
+/*//////////////////////////////////////////////////////////////////PARTIE FOOTER//////////////////////////////////////////////////////////////////*/
+
+ #contact{
+    width: 100%;
+    background-color: #34C6DD;
+    padding-top: 15px;
+}
+.grilles{
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grilles a{
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+}
+.grilles li{
+    list-style: none;
+}
+.noscoordonnées i{
+    margin-right: 5px;
+}
+.restonsconnectés a{
+   margin: 0 2px; 
+}
+.informations{
+    width: 100%;
+    
+}
+.noscoordonnées{
+    width: 100%;
+    
+}
+.restonsconnectés{
+    width: 100%;
+}
+
+footer{
+    background-color: grey;
+}
+footer .phrase{
+    margin: 0;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+/*      PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL / PAGE ACCUEIL         */
+
+
+
+/*//////////////////////////////////////////////////////////////////PARTIE TITRE/////////////////////////////////////////////////////////////////////*/
+
+
+#fond{
+    background-image: url(/Riu-plazza/img/hotel-miami-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    width: 100%;
+}
+#fond h1{
+    color: white;
+}
+.titre{
+    color: white;
+    text-align: center;
+}
+
+/*//////////////////////////////////////////////////////////////////PARTIE HOTEL//////////////////////////////////////////////////////////////////*/
+
+#hotel{
+    width: 90%;
+    margin: auto;
+
+}
+
+#hotel h1{
+    color: #34C6DD;
+    text-align: center;
+}
+.offres h4{
+    text-align: center;
+}
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em  
+}
+.amoureux{
+    background-image: url(/Riu-plazza/img/themes/vacances-en-couple.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;   
+}
+.famille{
+    background-image: url(/Riu-plazza/img/themes/vacances-en-famille.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+    width: 100%;   
+    max-width: 80%;
+    margin: auto;
+}
+.themes{
+    background-image: url(/Riu-plazza/img/themes/sejour-a-theme.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+    width: 100%; 
+    max-width: 80%;
+    margin: auto;  
+}
+
+/* //////////////////////////////////////////////////////////////////PARTIE CHAMBRES//////////////////////////////////////////////////////////////////*/
+
+#chambres{
+    background-color: #e4fbff;
+    width: 100%;
+    margin: auto;
+}
+#chambres h1{
+    text-align: center;
+    padding-top: 25px;
+}
+#chambres img{
+    max-width: 100%;
+}
+.leschambres{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 90%;   
+    padding-bottom: 30px; 
+}
+#chambres article{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 15px;
+}
+article p{
+    text-align: justify;
+}
+.titre1{
+    text-align: center;
+    font-weight: 500;
+}
+.col{
+    color: #e11f8f;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+#chambres button{
+    background-color: #e11f8f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+#chambres button:hover{
+    background-color: #c91c81;
+}
+#chambres button:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/*//////////////////////////////////////////////////////////////////PARTIE A VISITER//////////////////////////////////////////////////////////////////*/
+
+.visiter{
+    width: 100%; 
+}
+.hautvisiter{
+    text-align: center;
+}
+.listeavisiter{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 90%;  
+    padding-bottom: 30px; 
+}
+.listeavisiter img{
+    max-width: 100%;
+}
+.listeavisiter article{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 15px;
+}
+.listeavisiter button{
+    background-color: #e11f8f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    margin-top: 5px;
+}
+.listeavisiter button:hover{
+    background-color: #c91c81;
+}
+.listeavisiter button:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.listeavisiter p{
+    text-align: center;
+}
+
+
+
+
+/*      PAGE NOUS CONTACTER / PAGE NOUS CONTACTER / PAGE NOUS CONTACTER / PAGE NOUS CONTACTER / PAGE NOUS CONTACTER / PAGE NOUS CONTACTER        */
+
+
+/*//////////////////////////////////////////////////////////////////PARTIE TITRE//////////////////////////////////////////////////////////////////*/
+
+
+.active {
+    color: #e11f8f;
+}
+
+#fond2 {
+    width: 100%;
+}
+#fond2 div{
+    background-image: url(/Riu-plazza/img/banner-riu-hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 135px 0;
+    width: 100%;
+}
+#fond2 h1{
+    text-align: center;
+    color: #e11f8f;
+}
+
+
+/*//////////////////////////////////////////////////////////////////PARTIE FORMULAIRE//////////////////////////////////////////////////////////////////*/
+
+#formulaire{
+    width: 100%;
+}
+#formulaire span{
+    color: rgb(231, 0, 0);
+}
+#formulaire h2{
+    color: #34C6DD;
+    font-size: 2rem;
+    text-align: center;
+}
+#formulaire p{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.grilles2{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+fieldset{
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+fieldset:nth-child(1)
+{
+    margin-right: 50px;
+}
+fieldset:nth-child(2){
+    margin-left: 50px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+.form1 input{
+    display: block;
+    margin: 5px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+}
+.form2 select, textarea{
+    display: block;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 8px;
+    width: 90%;
+    margin: 5px;
+}
+
+textarea{
+    height: 75px;
+}
+.dates{
+    margin: 5px;
+}
+.form2 input{
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.bouton{
+    padding: 50px;
+    text-align: center;
+}
+#formulaire button{
+    background-color: #34C6DD;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 0;
+    width: 50%;
+}
+#formulaire button:hover{
+    background-color: #30bacf;
+}
+#formulaire button:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/*/////////////////////////////////////////////////////////////////PARTIE COORDONNEES/////////////////////////////////////////////////////////////////*/
+
+#noscoordonnées{
+    width: 100%;
+}
+.coordonnées h2{
+    text-align: center;
+    color: #34C6DD;
+}
+.coordonnées{
+    width: 90%;
+    margin: auto;
+}
+.coordonnées ul{
+    padding: 0;
+}
+.coordonnées li{
+    list-style: none;
+}
+.coordonnées i{
+    margin-right: 5px;
+}
+
+.planaccès{
+    width: 90%;
+    margin: auto;
+}
+.planaccès h3{
+    text-align: center;
+}
+.planaccès iframe{
+    width: 100%;
+}
+
+/*      PAGE A VISITER / PAGE A VISITER / PAGE A VISITER / PAGE A VISITER / PAGE A VISITER / PAGE A VISITER / PAGE A VISITER / PAGE A VISITER        */
+
+/* /////////////////////////////////////////////////////////////////PARTIE IMAGE///////////////////////////////////////////////////////////////// */
+
+#image{
+    background-image: url(/Riu-plazza/img/banner-riu-hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 135px 0;
+    width: 100%;
+}
+
+/* /////////////////////////////////////////////////////////////////PARTIE VIDEO///////////////////////////////////////////////////////////////// */
+
+#video{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#video h1{
+    
+    color: #e11f8f;
+}
+video{
+    width: 60%;
+}
+
+/* /////////////////////////////////////////////////////////////////PARTIE ARTICLE///////////////////////////////////////////////////////////////// */
+
+.everglades{
+    border-top: 2px solid rgb(192, 192, 192);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+}
+.everglades img{
+    max-width: 40%;
+    height: 30%;   
+}
+.everglades div{
+    margin-left: 10px;
+}
+.everglades h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #34C6DD;
+}
+.everglades p{
+    font-size: 0.8rem;
+}
+
+.keywest{
+    border-top: 2px solid rgb(192, 192, 192);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+}
+.keywest img{
+    max-width: 40%;
+    height: 30%;
+}
+.keywest div{
+    margin-left: 10px;
+}
+.keywest h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #34C6DD;
+}
+.keywest p{
+    font-size: 0.8rem;
+}
+.capcanaveral{
+    border-top: 2px solid rgb(192, 192, 192);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+}
+.capcanaveral img{
+    max-width: 40%;
+    height: 30%;
+}
+.capcanaveral div{
+    margin-left: 10px;
+}
+.capcanaveral h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #34C6DD;
+}
+.capcanaveral p{
+    font-size: 0.8rem;
+}
+.orlando{
+    border-top: 2px solid rgb(192, 192, 192);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+}
+.orlando img{
+    max-width: 40%;
+    height: 30%;
+}
+.orlando div{
+    margin-left: 10px;
+}
+.orlando h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #34C6DD;
+}
+.orlando p{
+    font-size: 0.8rem;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////PARTIE RESPONSIVE///////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////PARTIE RESPONSIVE///////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////PARTIE RESPONSIVE///////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////PARTIE RESPONSIVE///////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////PARTIE RESPONSIVE///////////////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 820px){
+    header{
+        height: 40px;
+    }
+    .burger{
+        display: inline-block;
+        position: absolute;
+        right: 40px;
+        top: 6px;
+    }
+    nav{
+        display: none;
+        height: 250px;
+    }
+    nav ul{
+        position: absolute;
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px 5px 5px #34C6DD;
+        top: 40px;
+        right: 0;
+        background-color: #fbfbfb;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        margin-bottom: 15px;
+    }
+    .photo{
+        display: flex;
+        flex-direction: column;
+    }
+    .amoureux, .famille, .themes{
+        margin: 10px auto;
+    }
+
+    .leschambres{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .listeavisiter{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grilles{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    video{
+        width: 90%;
+    }
+    .grilles2 fieldset:nth-child(1){
+        margin-right: 5px;
+    }
+    .grilles2 fieldset:nth-child(2){
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .grilles{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .classique{
+        display: flex;
+        justify-content: center;
+    }
+    nav a{
+        margin: 3px;
+    }
+    .leschambres{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    article .classique{
+        margin: 0;
+    }
+    .conteneur img{
+        max-width: 100%;
+        margin: auto;
+    }
+    .conteneur h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .listeavisiter{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .everglades, .keywest, .capcanaveral, .orlando{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .grilles2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grilles2 fieldset{
+        margin: auto;
+        width: 90%;
+    }
+    .grilles2 fieldset:nth-child(1){
+        margin: 0;
+    }
+    .grilles2 fieldset:nth-child(2){
+        margin: 0;
+    }
+}

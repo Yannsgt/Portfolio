@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous contacter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navListe">
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a></li>
+                <li><a href="carte.html"><i class="fa-solid fa-utensils"></i> Notre carte</a></li>
+                <li><a href="livredor.html"><i class="fa-solid fa-book"></i> livre d'or</a></li>
+                <li><a href="quisommesnous.html"><i class="fa-solid fa-user"></i> Qui sommes-nous ?</a></li>
+                <li><a href="nouscontacter.html" class="active"><i class="fa-solid fa-envelope"></i> Nous contacter</a></li>
+            </ul>
+            <span class="burger"><i class="fa-solid fa-bars fa-2xl"></i></span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Image">
+
+        </section>
+
+        <section class="contact">
+            <h1>Nous contacter</h1>
+
+            <div class="DeuxPartie">
+
+                <div class="partieUn">
+                    <h2>Nos coordonnées</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 77, rue d'Ermont, 95390 Saint-Prix</li>
+                    </ul>
+                    
+                    <ul>
+                        <li><i class="fa-solid fa-envelope"></i> Email : <a href="mailto:info@labotega.fr">info@labotega.fr</a></li>
+                        <li><i class="fa-solid fa-phone"></i> Téléphone : <a href="tel:0134279866">01 34 27 98 66</a></li>
+                    </ul>    
+                    
+                    <p>Vous pouvez aussi remplir le formulaire ci-dessous.</p>
+                    <p><span>(*)</span> Champs obligatoires</p>
+
+                    <form action="login.php" method="post">
+                        <label for="nom">Nom<span>*</span></label>
+                        <input type="text" name="nom" id="nom" required>
+
+                        <label for="email">Email<span>*</span></label>
+                        <input type="text" name="email" id="email" required>
+
+                        <label for="telephone">Téléphone</label>
+                        <input type="tel" name="telephone" id="telephone">
+
+                        <label for="sujet">Sujet<span>*</span></label>
+                        <input type="text" name="sujet" id="sujet" required>
+
+                        <label for="text">Message<span>*</span></label>
+                        <textarea name="text" id="text" required></textarea>
+
+                        <p><input type="checkbox" required><span>*</span> En soumettant ce formulaire, j'accepte la <a href="politiquedeconfidentialite.html">politique de confidentialité</a> du site, j'accepte que les informations saisies soient exploitées dans le cadre de la relation qui peut en découler.</p>
+
+                        <button type="submit" name="submit"><i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i> Envoyer</button>
+                    </form>
+                </div>
+
+                <div class="PartieDeux">
+                    <div>
+                        <h2>Newsletter</h2>
+                        <form action="">
+                            <label for="email">Pour recevoir les actualités, abonnez-vous à notre newsletter !</label>
+                            <input type="email" name="email" id="email" required placeholder="Votre email">
+                            <button type="submit">Abonnement</button>
+                        </form>
+                    </div>
+
+                    <div>
+                        <h2>Heures d'ouvertures</h2>
+                        <ul>
+                            <li>Lundi : de 12h à 14h et de 19h à 23h</li>
+                            <li>Mardi : de 12h à 14h et de 19h à 23h</li>
+                            <li>Mercredi : de 12h à 14h et de 19h à 23h</li>
+                            <li>Jeudi : de 12h à 14h et de 19h à 23h</li>
+                            <li>Vendredi : de 12h à 14h et de 19h à 23h</li>
+                            <li>Samedi : de 12h à 14h et de 19h à 23h</li>
+                            <li>Dimanche : de 19h à 23h</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2>Plan d'accès</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.3809435970015!2d2.2604856!3d49.00333719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66796af775fff%3A0xb6c7fc70d5447ecf!2s77%20Rue%20d&#39;Ermont%2C%2095390%20Saint-Prix!5e0!3m2!1sfr!2sfr!4v1686917484531!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="nouscontacter.html" class="active">Nous contacter</a> - <a href="mentionslegales.html">Mentions légales</a>  
+        </div>
+        <div>
+            <i class="fa-brands fa-square-facebook fa-xl" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-square-twitter fa-xl" style="color: #ffffff;"></i>
+        </div>
+        <div>
+            © 2023 Pizzéria La Botega - Tous droits réservés - Site réalisé par les étudiants OnlineFormaPro
+        </div>
+    </footer> 
+    <script src="main.js"></script>
+</body>
+</html>
